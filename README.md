@@ -57,6 +57,11 @@ pip install aiohttp panoramisk redis
   "logging": {
     "level": "INFO",
     "file": "/var/log/freepbx-amocrm.log"
+  },
+  "debug": {
+    "process_internal_calls": true,
+    "test_phone": "79991234567",
+    "detailed_ami_logging": true
   }
 }
 ```
