@@ -1,0 +1,23 @@
+{
+  "amocrm": {
+    "subdomain": "yourcompany",
+    "client_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "client_secret": "your_secret_here",
+    "redirect_uri": "https://your-domain.com:8080/oauth"
+  },
+  "asterisk": {
+    "ami_host": "localhost",
+    "ami_port": 5038,
+    "ami_user": "amocrm_user",
+    "ami_secret": "StrongPassword123!"
+  },
+  "webhook": {
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "debug": {
+    "process_internal_calls": true,
+    "test_phone": "79991234567",
+    "detailed_ami_logging": true
+  }
+}
